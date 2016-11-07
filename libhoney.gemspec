@@ -29,5 +29,11 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "webmock", "~> 2.1"
   spec.add_development_dependency "minitest", "~> 5.0"
   spec.add_development_dependency "yardstick", "~> 0.9"
+
+  spec.add_development_dependency "irbtools-more"
+  spec.add_development_dependency "load_path", "~> 0.2"
+  spec.add_development_dependency "rake-rspec", "~> 0.0.2"
+  spec.add_development_dependency "rspec", "~> 3.5"
+  
   spec.add_dependency "http", "~> 2.0"
 end
