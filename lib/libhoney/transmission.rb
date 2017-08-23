@@ -52,7 +52,7 @@ module Libhoney
 
         conn = Faraday.new(:url => e.api_host) do |faraday|
           faraday.request  :json
-          faraday.adapter  :net_http_persistent
+          faraday.adapter  :net_http
         end
 
         resp = conn.post do |req|
